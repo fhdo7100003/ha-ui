@@ -1,0 +1,21 @@
+{
+  "startTime": "2024-10-01T10:00:00Z",
+  "endTime": "2024-10-02T10:00:00Z",
+  "devices": [
+    {
+      "name": "Solar Panel 1",
+      "type": "SolarPanel"
+    },
+    {
+      "name": "Air Fryer 1",
+      "type": "StableDevice",
+      "produces": -200
+    },
+    {
+      "name": "Battery 1",
+      "type": "Store",
+      "maxChargePerTick": 1000,
+      "maxCapacity": 10000
+    }
+  ]
+}
