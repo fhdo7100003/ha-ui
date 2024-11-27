@@ -2,7 +2,8 @@
 
 MVP UI, not tested on Windows, only on Linux.
 It's build and runnable via [nix](https://nix.dev/install-nix.html), could probably
-work in wsl.
+work in wsl. Just install nix and the following commands
+should work:
 
 Build:
 
