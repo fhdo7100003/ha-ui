@@ -249,7 +249,7 @@ impl Application for AppModel {
                 .push(widget::text_editor(&self.editor_content).on_action(Message::Edit))
                 .push_maybe(self.has_error.as_ref().map(|err| widget::text::text(err)))
                 .into(),
-            None => widget::text("You shouldn't see this").into(),
+            None => widget::text("Select something you want to do on the left").into(),
         }
     }
 
